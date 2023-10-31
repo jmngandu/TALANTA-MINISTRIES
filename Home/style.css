@@ -1,5 +1,6 @@
 body {
 	background-color: gray;
+	background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/12/Budir-Church-Iceland.jpg);
 }
 .nav-section {
 	display: flex;
@@ -28,9 +29,15 @@ body {
 	align-self: flex-end;
 	margin-top: 30%;
 }
+.home-title {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 .get-started {
 	border-radius: 15px;
 	font-size: 30px;
+	margin-top: 50%;
 }
 .get-started:hover {
 	color: white;
