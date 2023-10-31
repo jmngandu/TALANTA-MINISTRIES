@@ -1,3 +1,38 @@
 body {
 	background-color: gray;
 }
+.nav-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navs-btn {
+	display: flex;
+	gap: 10px;
+	flex-wrap: wrap;
+}
+.navs-btn > li {
+	list-style-type: none;
+}
+.home-hero-section {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.connect-links {
+	list-style-type: none;
+	align-self: flex-end;
+}
+.home-subtext {
+	align-self: flex-end;
+	margin-top: 30%;
+}
+.get-started {
+	border-radius: 15px;
+	font-size: 30px;
+}
+.get-started:hover {
+	color: white;
+	background-color: black;
+}
