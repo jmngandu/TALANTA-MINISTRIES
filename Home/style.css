@@ -15,6 +15,11 @@ body {
 }
 .navs-btn > li {
 	list-style-type: none;
+	font-size: 20px;
+	text-decoration: none;
+}
+.navs-btn > li > a {
+	text-decoration: none;
 }
 .home-hero-section {
 	display: flex;
