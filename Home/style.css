@@ -18,6 +18,15 @@ body {
 	font-size: 20px;
 	text-decoration: none;
 }
+.navs-btn > li:hover {
+	color: white;
+	background-color: black;
+	border: 5px solid white;
+}
+.navs-btn > li > a:hover {
+	color: white;
+	background-color: black;
+}
 .navs-btn > li > a {
 	text-decoration: none;
 }
