@@ -1,59 +1,94 @@
+:root {
+	font-size: 62.5%; /*10 px*/
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
-	background-color: gray;
+	font-size: 1rem;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/12/Budir-Church-Iceland.jpg);
 }
-.nav-section {
+header {
+	font-size: 2rem;
+}
+
+main {
 	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+footer {
+	font-size: 1.5rem;
+	padding: 0.8rem 1.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.nav-section {
+	padding: 0.8rem 1.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navs-btn {
+	list-style-type: none;
+	display: flex;
+	/* justify-content: space-around; */
+}
+
+.navs-btn li {
+	margin-right: 0.8rem;
+}
+
+/* .navs-btn li a {
+	color: red;
+} */
+
+/* HOME HERO SECTION */
+.home-hero-section {
+	font-size: 2rem;
+	padding: 0.8rem 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home-connect-links {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.home-connect-links .connect-links {
+	list-style-type: none;
+	font-size: 1.2rem;
+}
+
+.home-title {
+	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.navs-btn {
-	display: flex;
-	gap: 10px;
-	flex-wrap: wrap;
+.the-title {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
 }
-.navs-btn > li {
-	list-style-type: none;
-	font-size: 20px;
-	text-decoration: none;
-}
-.navs-btn > li:hover {
-	color: white;
-	background-color: black;
-	border: 5px solid white;
-}
-.navs-btn > li > a:hover {
-	color: white;
-	background-color: black;
-}
-.navs-btn > li > a {
-	text-decoration: none;
-}
-.home-hero-section {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
-.connect-links {
-	list-style-type: none;
-	align-self: flex-end;
-}
-.home-subtext {
-	align-self: flex-end;
-	margin-top: 30%;
-}
-.home-title {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-.get-started {
-	border-radius: 15px;
-	font-size: 30px;
-	margin-top: 50%;
-}
-.get-started:hover {
-	color: white;
-	background-color: black;
+
+.home-title .get-started {
+	background-color: aquamarine;
+	font-size: 3rem;
+	border-radius: 10px;
 }
