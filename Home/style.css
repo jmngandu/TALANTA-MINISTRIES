@@ -14,14 +14,16 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/12/Budir-Church-Iceland.jpg);
+	/* background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/12/Budir-Church-Iceland.jpg); */
+	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Farchitecture-house-town-roof-building-old-red-tower-religion-landmark-church-chapel-historic-christian-place-of-worship-religious-spire-steeple-monastery-saint-christianity-worship-holy-historical-estate-old-church-rural-area-spanish-missions-in-california-452808.jpg&f=1&nofb=1&ipt=a6730266f5f997a4e02c933e03832f8a59bed78cd8b94aa3bb6acc7240885513&ipo=images);
+	background-position: 100%;
 }
 header {
 	font-size: 2rem;
 }
 .nav-logo {
 	width: 50px;
-	border-radius: 5px;
+	border-radius: 50%;
 }
 
 main {
@@ -36,6 +38,7 @@ footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-end;
+	color: white;
 }
 .nav-section {
 	padding: 0.8rem 1.5rem;
@@ -66,6 +69,9 @@ footer {
 	justify-content: center;
 	align-items: center;
 }
+.connect-text {
+	padding-top: 2rem;
+}
 
 .home-connect-links {
 	display: flex;
@@ -89,7 +95,7 @@ footer {
 
 .the-title {
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 4.5rem;
 	margin-bottom: 1.5rem;
 	color: ghostwhite;
 }
@@ -99,6 +105,7 @@ footer {
 	font-size: 3rem;
 	border-radius: 10px;
 	margin-bottom: -20rem;
+	padding: 1rem;
 }
 .get-started:hover {
 	color: white;
