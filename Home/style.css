@@ -14,9 +14,11 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	/* background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/12/Budir-Church-Iceland.jpg); */
-	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Farchitecture-house-town-roof-building-old-red-tower-religion-landmark-church-chapel-historic-christian-place-of-worship-religious-spire-steeple-monastery-saint-christianity-worship-holy-historical-estate-old-church-rural-area-spanish-missions-in-california-452808.jpg&f=1&nofb=1&ipt=a6730266f5f997a4e02c933e03832f8a59bed78cd8b94aa3bb6acc7240885513&ipo=images);
-	background-position: 100%;
+	background-image: url(https://images8.alphacoders.com/529/529702.jpg);
+	/* background-image: url(https://jooinn.com/images/church-114.jpg); */
+	background-position: 50%;
+	background-size: cover;
+
 	font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -188,7 +190,4 @@ footer {
 .navs-btn li:hover .dropdown {
 	visibility: visible;
 	opacity: 1;
-}
-.faqs {
-	text-align: left;
 }
