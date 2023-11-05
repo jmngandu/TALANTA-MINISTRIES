@@ -85,6 +85,9 @@ footer {
 	font-size: 1.2rem;
 	flex-direction: column;
 }
+.connect-links > i:hover {
+	color: black;
+}
 
 .home-title {
 	display: flex;
