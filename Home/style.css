@@ -17,6 +17,7 @@ body {
 	/* background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2018/12/Budir-Church-Iceland.jpg); */
 	background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.pxhere.com%2Fphoto%2Farchitecture-house-town-roof-building-old-red-tower-religion-landmark-church-chapel-historic-christian-place-of-worship-religious-spire-steeple-monastery-saint-christianity-worship-holy-historical-estate-old-church-rural-area-spanish-missions-in-california-452808.jpg&f=1&nofb=1&ipt=a6730266f5f997a4e02c933e03832f8a59bed78cd8b94aa3bb6acc7240885513&ipo=images);
 	background-position: 100%;
+	font-family: sans-serif;
 }
 header {
 	font-size: 2rem;
@@ -24,6 +25,7 @@ header {
 .nav-logo {
 	width: 50px;
 	border-radius: 50%;
+	cursor: none;
 }
 
 main {
@@ -50,6 +52,7 @@ footer {
 .navs-btn {
 	list-style-type: none;
 	display: flex;
+	cursor: wait;
 	/* justify-content: space-around; */
 }
 
@@ -78,15 +81,24 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 }
+.navs-btn > li:hover {
+	color: white;
+	text-decoration: overline;
+	transition: 0.5s ease-in-out;
+	border: 1px solid black;
+	border-radius: 50%;
+}
 
 .home-connect-links .connect-links {
 	display: flex;
 	list-style-type: none;
 	font-size: 1.2rem;
 	flex-direction: column;
+	cursor: pointer;
 }
 .connect-links > i:hover {
 	color: black;
+	transition: 0.5s ease-in-out;
 }
 
 .home-title {
@@ -109,15 +121,25 @@ footer {
 	border-radius: 10px;
 	margin-bottom: -20rem;
 	padding: 1rem;
+	cursor: pointer;
 }
 .get-started:hover {
 	color: white;
 	background-color: black;
 }
+.humberger {
+	display: none;
+}
 @media screen and (max-width: 768px) {
-	body {
-		display: none;
+	.navs-btn {
+		/* display: none; */
+		flex-direction: column;
+		align-items: center;
+	}
+	.connect-links > i {
+		font-size: 5vh;
+	}
+	.humberger {
+		display: contents;
 	}
 }
-
-/* (min-width: 1024px) */
