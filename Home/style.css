@@ -26,6 +26,7 @@ header {
 	width: 50px;
 	border-radius: 50%;
 	cursor: none;
+	align-self: start;
 }
 
 main {
@@ -85,7 +86,6 @@ footer {
 	color: white;
 	text-decoration: overline;
 	transition: 0.5s ease-in-out;
-	border: 1px solid black;
 	border-radius: 10%;
 	background-color: red;
 }
@@ -140,6 +140,9 @@ footer {
 		flex-direction: column;
 		align-items: center;
 		display: none;
+		margin-top: 2rem;
+		background-color: #fff;
+		border-radius: 5px;
 	}
 	.connect-links > i {
 		font-size: 5vh;
@@ -152,6 +155,7 @@ footer {
 		top: 20px;
 		right: 20px;
 		position: absolute;
+		padding-top: 5px;
 	}
 	.the-title {
 		font-size: 3.5rem;

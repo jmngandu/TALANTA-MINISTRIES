@@ -4,17 +4,13 @@ const openBtn = document.querySelector('.openBtn');
 
 openBtn.addEventListener('click', showMenu);
 // closeBtn.addEventListener('click', closeMenu);
-/*
 function showMenu() {
-	//navSection.style.display = 'flex';
+	navSection.style.display = 'flex';
 	openBtn.style.display = 'none';
-}*/
+}
 // function closeMenu() {
-// 	// navSection.style.top = '-100%';
-// 	// closeBtn.style.display = 'block';
+// 	navSection.style.top = '-100%';
+// 	closeBtn.style.display = 'block';
 // 	navSection.style.display = 'flex';
 // 	alert('hello');
 // }
-closeBtn.addEventListener('click', function () {
-	alert('hello');
-});
