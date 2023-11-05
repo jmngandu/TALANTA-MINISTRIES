@@ -145,10 +145,10 @@ footer {
 		font-size: 5vh;
 	}
 	.openBtn {
-		display: block;
+		display: none;
 	}
 	.closeBtn {
-		display: none;
+		display: block;
 		top: 20px;
 		right: 20px;
 		position: absolute;
