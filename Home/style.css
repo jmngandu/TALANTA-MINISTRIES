@@ -148,8 +148,12 @@ footer {
 		display: block;
 	}
 	.closeBtn {
-		display: block;
+		display: none;
 		top: 20px;
 		right: 20px;
+		position: absolute;
+	}
+	.the-title {
+		font-size: 3.5rem;
 	}
 }
