@@ -163,3 +163,24 @@ footer {
 		font-size: 3.5rem;
 	}
 }
+
+/* drop down menu */
+.dvbs-dropdown {
+	background-color: black;
+	width: 180px;
+	line-height: 45px;
+	position: absolute;
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.dvbs-dropdown > li {
+	width: 100%;
+	display: block;
+	font-weight: 400px;
+}
+.navs-btn li:hover .dvbs-dropdown {
+	visibility: visible;
+	opacity: 1;
+}
