@@ -104,7 +104,10 @@ footer {
 	cursor: pointer;
 	width: 20%;
 }
-.connect-links > i:hover {
+.connect-links > a {
+	color: #fff;
+}
+.connect-links > a i:hover {
 	color: black;
 	transition: 0.5s ease-in-out;
 }
