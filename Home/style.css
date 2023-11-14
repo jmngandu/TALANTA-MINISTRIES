@@ -183,7 +183,8 @@ footer {
 /* drop down menu */
 .dropdown {
 	background-color: black;
-	width: 180px;
+	/* width: 180px; */
+
 	line-height: 45px;
 	position: absolute;
 	visibility: hidden;
